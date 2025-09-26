@@ -1,6 +1,6 @@
-.body {
+body {
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #fff;
 }
@@ -10,6 +10,9 @@ ul, ol {
 }
 a {
     text-decoration: none;
+}
+address {
+    font-style: normal;
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -34,6 +37,10 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.nav-link:hover,
+.nav-link:focus {
+    color: #404BBF;
+}
 
 .contacts-link {
     font-family: 'Roboto', sans-serif;
@@ -43,4 +50,88 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 
+}
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404BBF;
+}
+.hero {
+    background: #2e2f42;
+
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+.hero-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
+    border: none;
+    cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+.values-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.values-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.title-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+.title-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.title-secondary {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
